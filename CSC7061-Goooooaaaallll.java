@@ -14,7 +14,6 @@ import java.util.Scanner;
  *
  */
 public class Goooooaaaallll {
-
 	public static void penaltyTaker(int[] inputArray) {
 
 		Scanner scanner = new Scanner(System.in);

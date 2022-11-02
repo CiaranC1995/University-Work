@@ -8,10 +8,12 @@ import java.util.Random;
 
 /**
  * Class that will replicate a lottery system, each week we will add features
- * based on our continued learning. So far it can store hard-coded winning
- * numbers and user favourite numbers and it can check a whether a user's number
- * is a winner or not. A win counter counts the number of winning balls and
- * outputs a response based on this.
+ * based on our continued learning. So far it allows a user to pick 6 numbers
+ * and randomly generates 6 winning numbers. It can check a whether a user's
+ * number is a winner or not. A win counter counts the number of winning balls
+ * and outputs a response based on this.
+ * 
+ * Next step is to split the program into functional methods.
  * 
  * @author ccase
  *
@@ -182,13 +184,13 @@ public class LottoChecker {
 			System.out.println("Number of winning balls: " + winCount + " Pay your uni fees");
 			break;
 		case 6:
-			System.out.println("Number of winning balls: " + winCount + " Tell the boss where to go .....");
+			System.out.println("Number of winning balls: " + winCount + " Hand in the notice .....");
 			break;
 		default:
 			System.out.println("Error");
 			break;
 		}
 		scanner.close();
-	} // end of class
+	}
 
 }
